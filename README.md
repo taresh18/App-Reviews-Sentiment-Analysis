@@ -4,8 +4,11 @@ Used Google play scraper to build dataset containing the ratings and user review
 Reviews with a rating of 1 or 2 are labelled as negative sentiment, rating 3 as neutral sentiment and rating 4 and 5 as positive sentiment. </br>
 
 ### Training :
-Used tokenizer from the transformers library for encoding </br>
+Used tokenizer from the transformers library for encoding. </br>
 Used AdamW (adam with weight decay) optimiser and cross entropy loss. </br>
-Trained for 10 epochs </br>
+Trained for 10 epochs. </br>
+
+### Result :
+Achieved an F1 score of 0.81 on the test set from the dataset. </br>
 
 
